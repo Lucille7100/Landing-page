@@ -78,6 +78,10 @@ a {
     height: 35px;
     width: 120px;
     margin-top:15px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    border: #3882f6;
+    color: white;
 }
 
 .image img {
@@ -87,59 +91,117 @@ a {
 
 .header-2 {
     text-align: center;
+    font-size: 36px;
+    color:#1f2937
 }
 
-.main-2  {
+
+.main-2 .info {
     display: flex;
-    gap:10px;
     justify-content: center;
-    text-align: center;
-    margin:50px;
+    max-width: 150px;
+    text-align:center;
+    
+    
+   
     
     
 }
 
-.main-2 div{
-    max-width: 100px;
+.main-2 img {
+   width: 150px;
+   height: 150px;
+   border-radius: 15px;
+   border:2px solid blueviolet;
+   padding:10px;
+   
+
+   
+  
 }
+
+.main-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    gap:50px;
+    
+}
+
+
 
 .main-3 {
     background-color: #e5e7eb;
+    padding: 70px;
     display: flex;
     flex-direction: column;
-    padding: 70px;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
     
     
 }
 
 .main-3 .content{
-    padding:10px;
+    padding:30px;
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
+    color:#1f2937;
+    width:850px;
+    
+    
    
+}
+
+.main-3 .author {
+   margin-right:-520px;
+   color:#1f2937;
+   font-size: 18px;
+   font-weight: bolder;
+   
+}
    
     
-}
+
 
 .main-4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+  color: #e5e7eb;
   background-color: #3882f6; ;
   height:150px;
   width: 600px;
   padding-right: 100px;
-  padding-left: 100px;
-  
+  padding-left: 150px;
+ 
   
 }
 
-.main-4 .button {
+.main-4 .content {
+    margin-left:-50px;
+}
+.button button {
     flex-shrink: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    height: 35px;
+    width: 120px;
+    margin-top:15px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    border:solid white;
+    color: white;
+    margin-right: -20px;
+    margin-top: -5px
+
+
     
+}
+
+.content .head {
+    font-size:20px;
+    font-weight: bold;
 }
 
 .main-5 {
@@ -150,11 +212,13 @@ a {
     height:100px;
     margin-top:70px;
     margin-bottom: 70px;
+    padding:40px;
 }
 
 footer {
     text-align: center;
     padding:30px;
-    background-color: #1f2937 
+    background-color: #1f2937;
+    color: white;
     
 }
